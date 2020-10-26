@@ -1,0 +1,21 @@
+/* body {
+    color: red;
+} */
+
+/* Customize the navigation bar */
+.navbar {
+    padding: 1rem;
+    background-color: blue;
+}
+
+/* Customize the footer */
+.p-5 {
+    padding: 1rem;
+    background-color: blue;
+}
+
+/* Customize the button */
+.btn-primary:hover {
+    background-color: blue;
+    color: white;
+  }
