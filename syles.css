@@ -5,14 +5,24 @@
 /* Customize the navigation bar */
 .navbar {
     padding: 1rem;
-    background-color: blue;
-    font-size: larger;
+    background-color: rgb(28, 56, 85);
+    font-size: 1.5em;
+}
+.navbar-brand {
+    font-size: 1.8em;
+    font-weight: bold;
+}
+
+/* Make the body text lighter than gray for readability */
+p {
+    color: antiquewhite;
+    margin-bottom: 3em;
 }
 
 /* Customize the footer */
 footer {
     padding: 0.1rem;
-    background-color: blue;
+    background-color: rgb(28, 56, 85);
 }
 
 /* Customize the button */
