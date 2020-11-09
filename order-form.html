@@ -14,24 +14,53 @@
 </head>
 <body>
     <!-- NAVBAR -->
-        <!-- previously with bg-dark -->
-        <nav class="navbar navbar-expand-lg navbar-dark">
-            <a class="navbar-brand" href="#">Air3D</a>
-            <div class="navbar-nav">
-              <a class="nav-item nav-link active" href="./index.html">Home</a>
-              <a class="nav-item nav-link" href="./product-offers.html">Product Offers</a>
-              <a class="nav-item nav-link" href="./product-requests.html">Product Requests</a>
-              <a class="nav-item nav-link" href="./order-form.html">Order Form <span class="sr-only">(current)</span></a>
-              <a class="nav-item nav-link" href="./design-upload-form.html">Design Upload Form</a>
+    <!-- previously with bg-dark -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="#">Air3D</a>
+        <div class="navbar-nav">
+            <a class="nav-item nav-link active" href="./index.html">Home</a>
+            <a class="nav-item nav-link" href="./product-offers.html">Product Offers</a>
+            <a class="nav-item nav-link" href="./product-requests.html">Product Requests</a>
+            <a class="nav-item nav-link" href="./order-form.html">Order Form <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link" href="./design-upload-form.html">Design Upload Form</a>
+        </div>
+        </nav>
+
+    <!-- ORDER FORM -->
+    <form>
+        <div class="form-group row">
+          <label for="inputEmail" class="col-sm-2 col-form-label">Email</label>
+          <div class="col-sm-10">
+            <input type="email" class="form-control" id="inputEmail">
+          </div>
+        </div>
+        <div class="form-group">
+            <label for="description">Description</label>
+            <textarea class="form-control" id="description" rows="3"></textarea>
+        </div>
+        <div class="form-group">
+            <label for="cadFile">Upload CAD file (optional):</label>
+            <input type="file" class="form-control-file" id="cadFile">
+        </div>
+        <div class="form-group row">
+            <label for="priceOffer" class="col-sm-2 col-form-label">Price Offer</label>
+            <div class="col-sm-10">
+              <input type="range" class="form-control" id="priceOffer">
             </div>
-          </nav>
+        </div>
+        <div class="form-group row">
+          <div class="col-sm-10">
+            <button type="submit" class="btn btn-primary">Submit Order</button>
+          </div>
+        </div>
+      </form>
 
 
     
     <!-- FOOTER -->
-        <!-- previously with bg-secondary -->
-        <footer class="p-2 text-white">
-            &copy; 2020 Air3D, Inc.
-        </footer>
+    <!-- previously with bg-secondary -->
+    <footer class="p-2 text-white">
+        &copy; 2020 Air3D, Inc.
+    </footer>
 </body>
 </html>
