@@ -5,7 +5,7 @@
 /* Customize the navigation bar */
 .navbar {
     padding: 1rem;
-    background-color: rgb(28, 56, 85);
+    background-color: rgb(10, 117, 19);
     font-size: 1.5em;
 }
 .navbar-brand {
@@ -13,21 +13,26 @@
     font-weight: bold;
 }
 
+.navbar-nav {
+    
+    text-align: right;
+}
+
 /* Make the body text lighter than gray for readability */
 p {
     color: antiquewhite;
-    margin-bottom: 3em;
+    margin-bottom: 4em;
 }
 
 /* Customize the footer */
-footer {
-    padding: 0.1rem;
-    background-color: rgb(28, 56, 85);
+.jumbotron {
+    /* padding: 0.1rem; */
+    background-color: rgb(10, 117, 19);
 }
 
 /* Customize the button */
 .btn-primary:hover {
-    background-color: blue;
+    background-color: rgb(47, 243, 122);
     color: white;
   }
 
@@ -53,3 +58,4 @@ footer {
     z-index: -1;
     opacity: 0.5; /* Tone the image down further by giving it transparency */
 }
+
