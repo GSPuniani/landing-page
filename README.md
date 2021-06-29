@@ -1,6 +1,4 @@
-# Capstone Bootstrap Website
-<i>Make School SPD 1.2</i>
+# Landing Page
+<i>Make School ENT 1.1</i>
 
-This is a website made with the Bootstrap framework. The site is for Air3D, a service that I proposed in this Medium post: https://medium.com/@gobindpuniani/air3d-accelerating-the-consumer-3d-printing-revolution-79aca3dd9eb. 
-
-UPDATE: This project now also includes dynamic components, such as tooltips for some of the links on the homepage and modals for confirming submission on the pages with forms.
+This is a website made with the Bootstrap framework. The site is for a fictional product currently named "Tennis Roomba". Some elements, such as the video, were borrowed from the [Tennibot website](https://www.tennibot.com/), which I discovered during my research for existing products related to my idea.
